@@ -10,6 +10,3 @@ for zeichen in zahl:
     liste.append(int(zeichen))
 print (liste)
 histogramm(liste)
-
-
-# 323 / 10 = 32/10 = 3/10 
