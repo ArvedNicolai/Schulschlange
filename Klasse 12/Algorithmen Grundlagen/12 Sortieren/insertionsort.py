@@ -1,4 +1,7 @@
 import random
+from time import *
+
+
 
 def insertion_sort(arr):
     # Durchlaufe das Array beginnend mit dem zweiten Element
@@ -26,8 +29,12 @@ for i in range(10):
     
 print("Gegebene Liste ist:")
 print_list(liste)
+t1 = process_time()
 
 insertion_sort(liste)
+t2 = process_time()
+t = t2 - t1
+print("Rechenzeit: ", t)
 
 print("Sortierte Liste ist:")
 print_list(liste)
